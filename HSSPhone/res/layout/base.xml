@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <!-- 标题栏 -->
+
+    <LinearLayout
+        android:id="@+id/ll_content_title"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/title_color"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <!-- 为下个布局分配空间 -->
+
+    <LinearLayout
+        android:id="@+id/ll_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9"
+        android:background="@color/backgroud_color"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+    </LinearLayout>
+    <!-- 为下个不同分布的布局分配空间，可以满足你不同的布局需求 -->
+
+</LinearLayout>

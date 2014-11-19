@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.msunsoft.hssphone"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/hss"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.msunsoft.hssphone.MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        
+        <activity 
+            android:name="com.msunsoft.hssphone.activity.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name="com.msunsoft.hssphone.activity.UtilizationOfEssentialDrugs"></activity>
+        <activity android:name="com.msunsoft.hssphone.activity.MedicalServicesActivity"></activity>
+        <activity android:name="com.msunsoft.hssphone.activity.PublicHealthActivity"></activity>
+        <activity android:name="com.msunsoft.hssphone.activity.RegionalHealthInformationOverviewActivity"></activity>
+        <activity android:name="com.msunsoft.hssphone.activity.ProfitabilityActivity"></activity>
+        <activity android:name="com.msunsoft.hssphone.activity.EssentialDrugsActivity"></activity>
+        <activity android:name="com.msunsoft.hssphone.activity.BasicSituationActivity"></activity>
+        <activity android:name="com.msunsoft.hssphone.activity.IncreaseRevenueActivity"></activity>
+        <activity android:name="com.msunsoft.hssphone.activity.QualityOfCareActivity"></activity>
+        <activity android:name="com.msunsoft.hssphone.activity.SourcesOfPatientActivity"></activity>
+        <activity android:name="com.msunsoft.hssphone.activity.ServiceEfficiencyActivity"></activity>
+        <activity android:name="com.msunsoft.hssphone.activity.QualityMonitoringActivity"></activity>
+        <activity android:name="com.msunsoft.hssphone.activity.TheBasicDrugUseActivity"></activity>
+        <activity android:name="com.msunsoft.hssphone.activity.WorkloadActivity"></activity>
+        <activity android:name="com.msunsoft.hssphone.activity.EfficiencyActivity"></activity>
+        <activity android:name="com.msunsoft.hssphone.activity.MedicareExecutionActivity"></activity>
+        <activity android:name="com.msunsoft.hssphone.activity.BothTimesTheCostActivity"></activity>
+        <activity android:name="com.msunsoft.hssphone.activity.CareQualitySupervisionActivity"></activity>
+        <activity android:name="com.msunsoft.hssphone.activity.AntibacterialDrugsActivity"></activity>
+        <activity android:name="com.msunsoft.hssphone.activity.PharmaceuticalQualityControlActivity"></activity>
+        <activity android:name="com.msunsoft.hssphone.activity.ClinicalQualityControlActivity"></activity>
+    </application>
+
+</manifest>
